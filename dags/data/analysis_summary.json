@@ -1,0 +1,12 @@
+{
+  "total_cryptos": 20,
+  "timestamp": "2025-05-28T20:40:17.923674",
+  "max_price_coin": "Bitcoin",
+  "max_price": 107201.0,
+  "total_market_cap": 3182515824100.0,
+  "avg_change_24h": -1.943864,
+  "top_gainer": "Toncoin",
+  "top_gainer_change": 12.94238,
+  "top_loser": "Hyperliquid",
+  "top_loser_change": -10.71771
+}
