@@ -21,11 +21,19 @@ El DAG se llama `crypto_dashboard_completo` y está configurado para ejecutarse 
 
 Crea un archivo `.env` en la raíz con estas variables:
 
+Genera una clave Fernet en PowerShell y reemplaza el valor de ejemplo por el resultado:
+
+```powershell
+$bytes = New-Object byte[] 32
+[Security.Cryptography.RandomNumberGenerator]::Create().GetBytes($bytes)
+[Convert]::ToBase64String($bytes)
+```
+
 ```env
 POSTGRES_USER=airflow
 POSTGRES_PASSWORD=airflow
 POSTGRES_DB=airflow
-AIRFLOW_FERNET_KEY=replace-with-a-fernet-key
+AIRFLOW_FERNET_KEY=pega-aqui-la-clave-generada
 ```
 
 ## Ejecución
