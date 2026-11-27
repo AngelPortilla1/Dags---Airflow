@@ -1,0 +1,2 @@
+# Evitar problemas de saltos de línea CRLF en scripts ejecutados dentro de contenedores Linux
+*.sh text eol=lf
